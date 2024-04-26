@@ -48,7 +48,7 @@ const DetailPage = () => {
                 </p>
                 <p>
                   <span className="font-medium ">Дата выхода: </span>{" "}
-                  {detailedMovie.data?.createdAt.slice(0, 10)}
+                  {detailedMovie.data?.createdAt?.slice(0, 10)}
                 </p>
                 <p>
                   <span className="font-medium ">Жанр: </span>{" "}
